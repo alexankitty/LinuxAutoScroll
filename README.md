@@ -37,3 +37,4 @@ Thanks to both Cestarian and Azerothian.
 - Create a whitelist so that autoscroll only occurs when a desired application is in focus
 - Give the script a proper configuration and installer.
 - Make this a C++ (or rust if I feel adventurous) program instead?
+- Support Wayland
