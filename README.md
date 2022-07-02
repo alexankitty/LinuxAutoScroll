@@ -21,7 +21,9 @@ Change the autoscroll.sh script to #!/bin/bash if you don't have/want dash.
 # Modifications
 All of these edits are made in autoscroll.sh
 If you want the scrolling to take longer to start, change the clickdelay, I found 0.1 to be the best for me, but the script suggested 0.2 instead.
+
 If you want click scrolling set that variable to 1. This is untested. It should theoretically work as we're blocking via xsel but it's not functionality I'm interested in.
+
 Be sure to set the paddingtop and paddingbot variables in accordance to your titlebar and taskbar needs as well. The script will push and lock the mouse above those places.
 
 # Thank you
