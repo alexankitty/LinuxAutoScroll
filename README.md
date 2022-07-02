@@ -29,3 +29,11 @@ Be sure to set the paddingtop and paddingbot variables in accordance to your tit
 # Thank you
 These changes would not have been possible without the original work I stole from here https://unix.stackexchange.com/questions/472398/can-i-make-middle-mouse-scrolling-on-linux-behave-more-like-autoscrolling-on-win
 Thanks to both Cestarian and Azerothian.
+
+# To Do
+- Hide and lock the mouse position.
+- Create an overlay based on where the mouse should be
+- Move the mouse to where it should be after scrolling completes.
+- Create a whitelist so that autoscroll only occurs when a desired application is in focus
+- Give the script a proper configuration and installer.
+- Make this a C++ (or rust if I feel adventurous) program instead?
