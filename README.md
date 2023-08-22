@@ -3,6 +3,9 @@ Simple script stolen and modified to enable autoscroll and middle mouse paste bl
 I've made a few simple edits to block pasting from within the script instead of using sxhkd to modify copy and paste hotkeys to do it.
 The click scroll is untested, use at your own risk.
 
+# Note
+Under wayland there is no need for such an implementation. The DE should provide a way to disable middle mouse paste, similar to KDE. Firefox and most electron based apps support auto scroll, but needs to be enabled.
+
 # Requirements
 - xsel
 - libinput
